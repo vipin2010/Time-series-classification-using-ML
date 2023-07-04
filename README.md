@@ -6,8 +6,8 @@ This tool uses displacement time series of PS pixels obtained by MT-InSAR proces
 Input: Displacement time-series data (train.csv/test.csv) in the format required by StaMPS_Visualizer  (https://github.com/thho/StaMPS_Visualizer)
 
 Model Training:
-train.csv>>train_prep.R>>train_features.csv>>SVM>>trained_SVM
-train.csv>>train_prep.R>>train_features.csv>>RF>>trained_RF
+train.csv>>train_prep.R>>train_features.csv>>SVM_R.ipynb>>trained_SVM
+train.csv>>train_prep.R>>train_features.csv>>RF_R.ipynb>>trained_RF
 
 Model Testing:
 test.csv>>test_prep.R>>test_features.csv>>trained_SVM>>pred_SVM_test
